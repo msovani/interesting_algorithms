@@ -1,4 +1,3 @@
-import time
 master_primes = list()
 
 
@@ -53,8 +52,9 @@ def keep_getting_primes():
                 break
 
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     # This call gives primes below 1000, this value can be changed
     print(str(get_primes_below(max_value=1000)))
+    # This call keeps giving prime numbers, after getting first 1000 primes the code stops.
+    # limit of 1000 can be changed.
     keep_getting_primes()
